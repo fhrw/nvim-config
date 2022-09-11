@@ -1,0 +1,16 @@
+{ 
+
+	"npm.binPath": "~/.nvm/versions/node/v12.9.1/bin/npm",
+	"snippets.ultisnips.usePythonx":true,
+	"coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "javascript", "html", "vim", "go"],
+	"emmet.includeLanguages": {"javascript": "javascriptreact"},
+	"languageserver": {
+		"golang": {
+			"command": "gopls",
+			"rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+			"filetypes": ["go"]
+
+		}
+	}
+}
+
